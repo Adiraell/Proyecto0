@@ -6,6 +6,13 @@ print("   %%    %%%%%     %%    %%  %%    %%    %%%%%%")
 print("   %%    %%  %%    %%     %%%%     %%    %%  %%")
 print("   %%    %%  %%  %%%%%%    %%    %%%%%%  %%  %%")
 print("        										  ")
+<<<<<<< HEAD
 #comentario
 
 #Te parás >:v
+=======
+
+print("Descripción: Trivia es un juego en donde jugadores se reunen para ver quien sabe mas sobre un tema en especifico.")
+print("Reglas: ")
+print("1) Cada jugador debe responder 5 preguntas, durante 3 rondas \n   al final del juego el que haya acertado mas preguntas es el ganador.")
+>>>>>>> upstream/master
