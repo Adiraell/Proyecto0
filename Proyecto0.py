@@ -28,16 +28,22 @@ def cantidadjugadores():
     for jugador in range(cantidad):
         listadejugadores.append(input("Ingrese el nombre del jugador "+ str(jugador + 1) + ": "))
     return listadejugadores
+#=====================================================va dentro del main=================================
+listadejugadores = cantidadjugadores()
+puntuaciones = []
 
-def puntuacion(listadejugadores):
+for jugador in listadejugadores:
+    puntuaciones.append(0)
+#====================================================================================================
+def puntuacion(listadejugadores, puntuaciones):
     #
     #
     #
     #
     i = 0
     for jugadores in listadejugadores:
-        print(listadejugadores[i],": ",  "-")
+        print(str(listadejugadores[i])+": " , puntuaciones[i])
         i+= 1
-        
+puntuacion(listadejugadores, puntuaciones)        
     
     
