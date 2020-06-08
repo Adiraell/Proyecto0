@@ -13,12 +13,13 @@ print("Reglas: ")
 print("1) Cada jugador debe responder 5 preguntas, durante 3 rondas \n   al final del juego el que haya acertado mas preguntas es el ganador.")
 
 
-
+global listadejagadores
 def cantidadjugadores():
     #Funcion que le pide al usuario la cantidad de jugadores que van a jugar y sus respectivos nombres
     #   Entrada: ninguna
     #   Salida: La lista de jugadores que van a jugar
     #   Restricciones: -La cantidad de jugadores debe de ser un entero positivo
+
     listadejugadores = []
     cantidad = int(input("Cuantos jugadores van a jugar: "))
     while cantidad <= 0:
@@ -26,5 +27,17 @@ def cantidadjugadores():
         cantidad = int(input("Cuantos jugadores van a jugar: "))
     for jugador in range(cantidad):
         listadejugadores.append(input("Ingrese el nombre del jugador "+ str(jugador + 1) + ": "))
+    return listadejugadores
+
+def puntuacion(listadejugadores):
+    #
+    #
+    #
+    #
+    i = 0
+    for jugadores in listadejugadores:
+        print(listadejugadores[i],": ",  "-")
+        i+= 1
+        
     
     
